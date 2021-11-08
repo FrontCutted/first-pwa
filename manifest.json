@@ -1,0 +1,20 @@
+{
+  "dir" : "ltr",
+  "lang" : "en",
+  "name" : "my-PWA",
+  "short_name" : "mPwa",
+  "describtion" : "my first pwa app",
+  "icons" : [
+    {
+      "src" : "./my-PWA.png",
+      "sizes" : "540x540",
+      "type" : "image/png",
+      "purpose" : "any"
+    }
+  ],
+  "display" : "standalone",
+  "orientation" : "portrait",
+  "start_url" : "/",
+  "theme_color" : "dodgerblue",
+  "background_color" : "#222222"
+}
