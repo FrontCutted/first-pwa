@@ -1,8 +1,5 @@
-(() => {
-  if ("serviceWorker" in navigator)
-  {
-    navigator.serviceWorker.register("./service-worker.js");
-  }else{
-    document.write("Service Worker Unavailable...");
-  }
-}())
+if ("serviceWorker" in navigator){
+    window.addEventListener("load", function(){
+      navigator.serviceWorker.register("./service-worker.js");
+    })
+}
