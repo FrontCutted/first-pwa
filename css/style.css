@@ -1,0 +1,12 @@
+body {
+  background: #222222;
+}
+h1 {
+  text-align: center;
+  color: AliceBlue;
+  font: 200 70px sans-serif;
+  margin-top: 20px;
+}
+span {
+  color: dodgerblue;
+}

@@ -1,27 +1,52 @@
 {
+  "name": "my first PWA",
+  "short_name": "PWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#222222", 
+  "theme_color": "#222222",
+  "orientation": "any",
   "icons": [
     {
-      "src": "/my-pwa-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },{
-     "src": "/my-pwa-512.png",
-     "sizes": "512x512",
-     "type": "image/png"
+      "src": "/images/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "lang": "en-US"
-  "background_color": "#222222",
-  "description": "My First Progressive Web App",
-  "dir": "ltr",
-  "display": "standalone",
-  "name": "my PWA",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "PWA",
-  "start_url": "/index.html",
-  "theme_color": "#222222",
-  "categories": [],
-  "screenshots": [],
-  "shortcuts": []
+  "describtion": "This is my first PWA that I've made..."
 }
