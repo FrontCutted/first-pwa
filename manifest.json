@@ -1,6 +1,4 @@
 {
-  "name": "",
-  "short_name": "",
   "icons": [
     {
       "src": "/my-pwa-192.png",
@@ -12,10 +10,18 @@
      "type": "image/png"
     }
   ],
-  "describtion": "My First Progressive Web App",
-  "lang": "en-US",
+  "lang": "en-US"
+  "background_color": "#222222",
+  "description": "My First Progressive Web App",
+  "dir": "ltr",
   "display": "standalone",
+  "name": "my PWA",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "PWA",
   "start_url": "/index.html",
   "theme_color": "#222222",
-  "background_color": "#222222"
+  "categories": [],
+  "screenshots": [],
+  "shortcuts": []
 }
